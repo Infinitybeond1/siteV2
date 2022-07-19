@@ -1,0 +1,10 @@
+@font-face { 
+  font-family: "scientifica";
+  src: url("fonts/scientifica.ttf") format("truetype"); 
+}
+
+body {
+  background-color: #101419;
+  color: #b6beca;
+  font-family: 'scientifica';
+}
