@@ -6,10 +6,15 @@
 <meta content="https://infinitybeond1.tk/favicon.ico" property="og:image" />
 <meta content="#73c291" data-react-helmet="true" name="theme-color" />
 
-
+{# Import the stylesheet #}
 <head>
   <link rel="stylesheet" href="css/index.css">
 </head>
-<h1>
-  Hello
-</h1>
+
+{# Header #}
+ <div class="topnav">
+  <a class="active" href="~">Home</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+  <a href="#technologies">Technologies</a>
+</div> 

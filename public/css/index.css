@@ -5,3 +5,30 @@ body {
   color: #b6beca;
   font-family: 'scientifica';
 }
+
+.topnav {
+  background-color: #0e1217;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #b6beca;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #73c291;
+  color: #101419;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #73c291;
+  color: #101419;
+}
