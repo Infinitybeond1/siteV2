@@ -1,4 +1,4 @@
-FROM nimlang/nim:devel
+FROM nimlang/nim:latest
 
 WORKDIR /site
 
