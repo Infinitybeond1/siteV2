@@ -1,7 +1,4 @@
-@font-face { 
-  font-family: "scientifica";
-  src: url("fonts/scientifica.ttf") format("truetype"); 
-}
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 body {
   background-color: #101419;
