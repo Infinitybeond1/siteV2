@@ -5,8 +5,23 @@ import nimja,
 proc renderIndex(): string =
   compileTemplateFile(getScriptDir() & "/templates/index.html.nimja")
 
+proc renderProjects(): string =
+  compileTemplateFile(getScriptDir() & "/templates/project.html.nimja")
+  
+proc renderTech(): string =
+  compileTemplateFile(getScriptDir() & "/templates/tech.html.nimja")
+
+proc renderAbout(): string =
+  compileTemplateFile(getScriptDir() & "/templates/about.html.nimja")
+
 routes:
   get "/": 
     redirect uri("/~")
   get "/~":
     resp renderIndex()
+  get "/projects":
+    resp renderProjects()
+  get "/about":
+    resp renderAbout()
+  get "/technologies":
+    resp renderTech()

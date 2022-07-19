@@ -12,9 +12,9 @@
 </head>
 
 {# Header #}
- <div class="topnav">
+<div class="topnav">
   <a class="active" href="~">Home</a>
-  <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
-  <a href="#technologies">Technologies</a>
+  <a href="/projects">Projects</a>
+  <a href="/technologies">Technologies</a>
+  <a href="/about">About</a>
 </div> 

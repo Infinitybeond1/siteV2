@@ -1,0 +1,12 @@
+{# Import the stylesheet #}
+<head>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+{# Header #}
+<div class="topnav">
+  <a href="~">Home</a>
+  <a href="/projects">Projects</a>
+  <a class="active" href="/technologies">Technologies</a>
+  <a href="/about">About</a>
+</div> 
