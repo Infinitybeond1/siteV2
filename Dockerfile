@@ -6,4 +6,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD [ "nimble", "run" ]
+CMD [ "nimble", "run", "-y" ]
