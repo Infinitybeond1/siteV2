@@ -5,12 +5,13 @@
 body {
   background-color: #101419;
   color: #b6beca;
-  font-family: 'scientifica', 'Josefin Sans';
+  font-family: 'Josefin Sans';
 }
 
 .topnav {
   background-color: #0e1217;
   overflow: hidden;
+  margin-bottom: 0.7rem
 }
 
 /* Style the links inside the navigation bar */
@@ -41,4 +42,14 @@ body {
   float: left;
   background-color: #73c291;
   color: #101419;
+}
+
+.indexbody {
+  background-color: #0e1217;
+  color: #b6beca;
+  font-family: 'Josefin Sans';
+  font-size: 13px;
+  text-align: left;
+  padding: 14px 16px;
+  height: fill;
 }
