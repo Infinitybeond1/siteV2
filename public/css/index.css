@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
 
 body {
   background-color: #101419;
   color: #b6beca;
-  font-family: 'scientifica';
+  font-family: 'scientifica', 'Edu QLD Beginner';
 }
 
 .topnav {
