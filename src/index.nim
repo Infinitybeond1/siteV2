@@ -25,3 +25,7 @@ routes:
     resp renderAbout()
   get "/technologies":
     resp renderTech()
+  get "/github":
+    redirect uri("https://github.com/Infinitybeond1")
+  get "/discord":
+    redirect uri("https://discordapp.com/channels/@me/704106773660827690/")

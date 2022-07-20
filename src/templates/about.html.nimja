@@ -1,12 +1,17 @@
 {# Import the stylesheet #}
 <head>
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 {# Header #}
 <div class="topnav">
-  <a href="~">Home</a>
-  <a href="/projects">Projects</a>
-  <a href="/technologies">Technologies</a>
+  <a class="tab" href="~">Home</a>
+  <a class="tab" href="/projects">Projects</a>
+  <a class="tab" href="/technologies">Technologies</a>
   <a class="active" href="/about">About</a>
+  {# Socials #}
+  <a class="social" href="/discord"> <i class="ri-discord-line"></i> </a>
+  <a class="social" href="mailto:Infinitybeond1@protonmail.com"> <i class="ri-mail-open-line"></i> </a>
+  <a class="social" href="/github"> <i class="ri-github-line"></i> </a>
 </div> 

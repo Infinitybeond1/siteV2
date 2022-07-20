@@ -13,7 +13,6 @@ body {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
   color: #b6beca;
   text-align: center;
   padding: 14px 16px;
@@ -27,8 +26,17 @@ body {
   color: #101419;
 }
 
+.topnav a.tab {
+  float: left;
+}
+
+.topnav a.social {
+  float: right;
+}
+
 /* Add a color to the active/current link */
 .topnav a.active {
+  float: left;
   background-color: #73c291;
   color: #101419;
 }
