@@ -29,3 +29,5 @@ routes:
     redirect uri("https://github.com/Infinitybeond1")
   get "/discord":
     redirect uri("https://discordapp.com/channels/@me/704106773660827690/")
+  get "/blog":
+    redirect uri("https://blog.infinitybeond1.tk/")

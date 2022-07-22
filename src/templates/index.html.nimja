@@ -22,6 +22,7 @@
     <a class="tab" href="/about">About</a>
     {# Socials #}
     <a class="social" href="/discord"> <i class="ri-discord-line"></i> </a>
+    <a class="social" href="/blog"> <i class="ri-newspaper-line"></i>  </a>
     <a class="social" href="mailto:Infinitybeond1@protonmail.com"> <i class="ri-mail-open-line"></i> </a>
     <a class="social" href="/github"> <i class="ri-github-line"></i> </a>
   </div>
