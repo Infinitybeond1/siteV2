@@ -11,3 +11,4 @@ bin           = @["index"]
 requires "nim >= 1.0.0"
 requires "jester"
 requires "nimja"
+requires "terminaltables"

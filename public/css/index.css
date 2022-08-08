@@ -35,6 +35,7 @@ body {
 
 .topnav a.social {
   float: right;
+  font-size: 22;
 }
 
 /* Add a color to the active/current link */
@@ -52,4 +53,23 @@ body {
   text-align: left;
   padding: 14px 16px;
   height: fill;
+}
+
+.ed {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding-top: 11%;
+}
+
+.ei {
+  text-align: center;
+  vertical-align: center;
+  font-size: 100;
+}
+
+.et {
+  text-align: center;
+  vertical-align: center;
+  font-size: 40;
 }

@@ -9,7 +9,7 @@
 {# Import the stylesheet #}
 <head>
   <link rel="stylesheet" href="css/index.css">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <script src="https://unpkg.com/phosphor-icons"></script>
 </head>
 
 <div class="index">
@@ -21,10 +21,10 @@
     <a class="tab" href="/technologies">Technologies</a>
     <a class="tab" href="/about">About</a>
     {# Socials #}
-    <a class="social" href="/discord"> <i class="ri-discord-line"></i> </a>
-    <a class="social" href="/blog"> <i class="ri-newspaper-line"></i>  </a>
-    <a class="social" href="mailto:Infinitybeond1@protonmail.com"> <i class="ri-mail-open-line"></i> </a>
-    <a class="social" href="/github"> <i class="ri-github-line"></i> </a>
+    <a class="social" href="/discord"> <i class="ph-discord-logo"></i> </a>
+    <a class="social" href="/blog"> <i class="ph-newspaper-clipping"></i> </a>
+    <a class="social" href="mailto:Infinitybeond1@protonmail.com"> <i class="ph-envelope-open"></i> </a>
+    <a class="social" href="/github"> <i class="ph-github-logo"></i> </a>
   </div>
   
   {# Body #}
@@ -33,9 +33,12 @@
     <h1>
       👋 Hello, I'm Luke, also known as Infinitybeond1.
     </h1>
-    <h2>
+    <h1>
       I am linux user and FOSS enthusiast and developer. I love systems programming and web developement
-    </h2>
+    </h1>
+    <h3>
+      Ive been a programmer for 3 years, and my favorite languages are nim and zig. Ive been into linux for a year now and I have some expirence with the command line. I also have some expirence with docker and the cloud! I started out programming by creating discord bots, and currently I make cli apps and websites
+    </h3>
   </div>
 </div>
 

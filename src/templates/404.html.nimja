@@ -1,0 +1,13 @@
+<head>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+
+<div class="ed">
+  <div class="ei">  
+    <i class="ph-link-break"></i>
+  </div>
+  <div class="et">  
+    <br>Hmm... This is awkward, it seems the page doesnt exist
+  </div>
+</div>
